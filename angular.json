@@ -23,9 +23,15 @@
               "src/assets"
             ],
             "styles": [
+              "../hotelApp/node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
+                         
             ],
-            "scripts": []
+            "scripts": [
+              "../hotelApp/node_modules/jquery/dist/jquery.js",
+              "../hotelApp/node_modules/tether/dist/js/tether.js",
+              "../hotelApp/node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
